@@ -41,9 +41,9 @@ resource "azurerm_kubernetes_cluster" "main" {
     avm_git_commit           = "a2b7e7dc8b41c0c8c0e5e2ab7902b46bc2d6919e"
     avm_git_file             = "main.tf"
     avm_git_last_modified_at = "2024-02-16 15:45:22"
-    avm_git_org              = "Azure"
+    avm_git_org              = "iamamitgera"
     avm_git_repo             = "terraform-azurerm-aks"
-    avm_yor_trace            = "376f36e3-5554-4e39-bc27-3ff7249d347d"
+    avm_yor_trace            = "90429297-836f-4ecf-96ad-0239c43b4fb6"
     } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/), (/*<box>*/ (var.tracing_tags_enabled ? { for k, v in /*</box>*/ {
     avm_yor_name = "main"
   } /*<box>*/ : replace(k, "avm_", var.tracing_tags_prefix) => v } : {}) /*</box>*/))
